@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="date.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		function convertJavaDate(type,date)
+		{
+			var mydate = new Date(date);//You can also set here directly
+   			var str = mydate.toString(type);//You can also set here directly
+   			alert(str);
+		}
+		
+	</script>
+</head>
+<body>
+
+<input type="button" onclick="convertJavaDate('dd/MM/yyyy','2018-12-20')" value="Convert Date">	
+	
+</body>
+</html>
